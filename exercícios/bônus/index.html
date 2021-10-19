@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+    <title>Bônus</title>
+</head>
+<body>
+    <h1>Tags aprendidas</h1>
+    <h2>Strong</h2>
+    <p>podemos deixar um texto escuro usando a tag &lt;strong&gt;&lt;/strong&gt; <strong>como agora</strong>.</p>
+    <h2>Imagem</h2>
+    <p>podemos colocar imagens com a tag img</p>
+    <img src="luffy-250.jpg" alt="">
+    <h2>Favicon</h2>
+    <p>Podemos adicionar um favicon em lá em cima com link e favicon em head</p>
+    <h2>Itálico</h2>
+    <p><em>podemos deixar um texto em itálico usando a tag em</em></p>
+    <h2>Sublinhado</h2>
+    <p><ins>Podemos sublinar um texto usando a tag ins</ins></p>
+    <h2>Links</h2>
+    <p>podemos criar links (ligações)</p>
+    <a target="_blank" rel="external" href="https://www.youtube.com/watch?v=0Wa_CR0H8g4">Neffex</a>
+    <p>e usamos os parâmetros target para mostrar se queremos que abra uma nova pagina pro link ou se vamos usar a página atual para ir ao link <br> <strong>_blank para uma nova página e _self para usar a página atual</strong>
+    e o parâmetro rel="" para demonstrar a relação do link se é external = externo ou next para próxima e prev para anterior e podemos usar o nofollow para links pagos no nosso site.</p>
+    <h2>Audio</h2>
+    <p>Para colocar audio no nosso site é simples usamos a tag audio e dentro criamos a tag source:src para demonstrar aonde se encontra o audio e o type dele</p>
+    <audio preload="auto" controls>
+        <source src="neffex.mp3" type="audio/mpeg">
+    </audio>
+    <h3>Parâmetros do audio</h3>
+    <p>para mostrar os controles usamos o parâmetro controls dentro da tag audio</p>
+    <p>e podemos também definir se o download do audio será automatico ou não com o parâmentro em audio preload="" podendo usar os valores auto, none ou metadata.</p>
+    <h2>Video</h2>
+    <p>podemos também adicionar video no nosso site</p>
+    <h3>no servidor</h3>
+    no servidor usamos a tag video, dentro da tag usamos source:src para mostrar aonde está o video e o tipo do video, podemos usar os parâmetros controls para mostrar os controles do video e o parâmetro preload="" com os valores auto, none e metadata
+    <video controls preload="auto" width=560px>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <h3>ou hindexado</h3>
+    <p>pegar um video do youtube ou vimeo é muito simples basta clicar em compartilhar e escolher a opção <strong>incorporar</strong> e lá estará um codigo pronto que é so colocar no html.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pOnU7lPZ16w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
