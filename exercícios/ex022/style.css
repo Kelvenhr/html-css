@@ -1,0 +1,18 @@
+
+
+.box1, .box2, .box3 {
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+#flex-content {
+    height: 500px;
+    background: rgb(102, 181, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
